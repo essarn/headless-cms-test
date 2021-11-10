@@ -1,0 +1,12 @@
+backend:
+  name: git-gateway
+  branch: main
+media_folder: images/uploads
+collections:
+  - name: "employee"
+    label: "Anställda"
+    folder: "content/employees"
+    create: true
+    fields:
+      - { label: "Namn", name: "Namn", widget: "string" }
+      - { label: "Email", name: "E-post", widget: "strinm" }
