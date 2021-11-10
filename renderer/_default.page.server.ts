@@ -31,6 +31,17 @@ async function render(pageContext: PageContextBuiltIn & PageContext) {
       </head>
       <body>
         <div id="app">${dangerouslySkipEscape(appHtml)}</div>
+        <script>
+          if (window.netlifyIdentity) {
+            window.netlifyIdentity.on("init", user => {
+              if (!user) {
+                window.netlifyIdentity.on("login", () => {
+                  document.location.href = "/admin/";
+                });
+              }
+            });
+          }
+        </script>
       </body>
     </html>`;
 
