@@ -27,6 +27,7 @@ async function render(pageContext: PageContextBuiltIn & PageContext) {
         <link rel="icon" href="${logoUrl}" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content="${desc}" />
+        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
         <title>${title}</title>
       </head>
       <body>
