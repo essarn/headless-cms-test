@@ -13,4 +13,5 @@ fields:
     required: true
   label: Hours
 pages:
+- content/hours/lunch-break.json
 - content/hours/monday-friday.json
