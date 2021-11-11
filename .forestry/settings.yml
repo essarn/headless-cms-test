@@ -9,11 +9,9 @@ sections:
   label: Öppettider
   create: documents
   match: "**/*"
-  new_doc_ext: ".json"
+  new_doc_ext: json
   templates:
   - oppettid
-- type: heading
-  label: Öppettider
 - type: heading
   label: Content
 - type: directory
