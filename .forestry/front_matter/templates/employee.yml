@@ -12,3 +12,22 @@ fields:
   config:
     required: true
   label: Role
+- name: phone
+  type: text
+  config:
+    required: true
+  label: Phone
+- name: email
+  type: text
+  config:
+    required: true
+  label: Email
+- name: bio
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Bio
