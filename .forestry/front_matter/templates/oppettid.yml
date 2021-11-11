@@ -2,16 +2,24 @@
 label: Öppettid
 hide_body: true
 fields:
-- name: dagar
-  type: text
+- name: items
+  type: field_group_list
+  fields:
+  - name: days
+    type: text
+    config:
+      required: true
+    label: Days
+  - name: hours
+    type: text
+    config:
+      required: true
+    label: Hours
   config:
-    required: true
-  label: Days
-- name: hours
-  type: text
-  config:
-    required: true
-  label: Hours
+    min: 
+    max: 
+    labelField: 
+  label: items
 pages:
 - content/hours/lunch-break.json
 - content/hours/monday-friday.json
