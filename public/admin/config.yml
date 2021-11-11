@@ -5,8 +5,10 @@ media_folder: images/uploads
 collections:
   - name: "employee"
     label: "Anställda"
-    folder: "content/employees"
+    folder: "content/employee"
     create: true
     fields:
       - { label: "Namn", name: "Namn", widget: "string" }
-      - { label: "Email", name: "E-post", widget: "strinm" }
+      - { label: "Email", name: "E-post", widget: "string" }
+      - { label: "Mobil", name: "phone", widget: "number" }
+      - { label: "Bio", name: "bio", widget: "markdown" }

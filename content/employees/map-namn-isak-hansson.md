@@ -1,3 +1,0 @@
----
-Namn: Isak Hansson
----
