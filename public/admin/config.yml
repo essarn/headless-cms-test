@@ -2,9 +2,9 @@ backend:
   name: git-gateway
   branch: main
   commit_messages:
-    create: "feat(content): create entry {{path}}"
-    update: "feat(content): update entry {path}}"
-    delete: "feat(content): delete entry {{path}}"
+    create: feat(content): create entry "{{path}}"
+    update: feat(content): update entry "{path}}"
+    delete: feat(content): delete entry "{{path}}"
 media_folder: images/uploads
 collections:
   - name: "employee"
