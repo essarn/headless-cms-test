@@ -1,4 +1,9 @@
 ---
 label: Öppettid
 hide_body: true
-fields: []
+fields:
+- name: dagar
+  type: text
+  config:
+    required: true
+  label: Days
