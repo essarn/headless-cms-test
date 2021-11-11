@@ -6,14 +6,10 @@ webhook_url:
 sections:
 - type: heading
   label: Business
-- type: directory
-  path: content/hours
+- type: document
+  path: content/opening-hours
   label: Öppettider
-  create: documents
   match: "**/*"
-  new_doc_ext: json
-  templates:
-  - oppettid
 - type: heading
   label: Content
 - type: directory

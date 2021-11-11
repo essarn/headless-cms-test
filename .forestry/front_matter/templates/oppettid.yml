@@ -20,6 +20,3 @@ fields:
     max: 
     labelField: 
   label: items
-pages:
-- content/hours/lunch-break.json
-- content/hours/monday-friday.json
