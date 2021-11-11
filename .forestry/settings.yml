@@ -5,7 +5,7 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
-  path: content/opening-hours
+  path: content/opening-hours.json
   label: Öppettider
 - type: heading
   label: Content
