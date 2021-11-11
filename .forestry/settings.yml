@@ -11,6 +11,8 @@ sections:
   label: Employees
   create: documents
   match: "**/*"
+  templates:
+  - employee
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
