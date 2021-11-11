@@ -12,3 +12,5 @@ fields:
   config:
     required: true
   label: Hours
+pages:
+- content/hours/monday-friday.json
