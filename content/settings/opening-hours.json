@@ -1,12 +1,12 @@
 {
   "opening-hours-item": [
     {
-      "days": "Lunchstängt",
-      "hours": "12.00-13.00"
-    },
-    {
       "days": "Måndag - fredag",
       "hours": "07.00 - 16.00"
+    },
+    {
+      "days": "Lunchstängt",
+      "hours": "12.00-13.00"
     }
   ]
 }
