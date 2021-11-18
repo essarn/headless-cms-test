@@ -1,7 +1,7 @@
 ---
 new_page_extension: md
 auto_deploy: false
-admin_path: admindev
+admin_path: public/dev/admin
 webhook_url: 
 sections:
 - type: document
