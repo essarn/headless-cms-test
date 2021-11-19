@@ -1,5 +1,5 @@
 ---
-name: Isak Hansson
+name: Isak Carl Hansson
 email: foobarsak@gmail.com
 phone: "0725153535"
 ---
